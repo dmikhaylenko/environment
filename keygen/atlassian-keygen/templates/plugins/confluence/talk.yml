@@ -1,0 +1,21 @@
+name: Talk - Inline Comments for Confluence
+namespace: com.stiltsoft.confluence.talk.confluence-talk-plugin
+plugin: true
+template: |
+  #{created_at}
+  Description={name}\: Evaluation
+  NumberOfUsers={number_of_users}
+  {namespace}.enterprise={enterprise}
+  CreationDate={creation_date}
+  {namespace}.active=true
+  ContactEMail={contact_email}
+  Evaluation={evaluation}
+  licenseVersion={license_version}
+  MaintenanceExpiryDate={maintenance_expiry_date}
+  Organisation={organisation}
+  ServerID={server_id}
+  SEN={sen}
+  {namespace}.Starter={starter}
+  LicenseExpiryDate={license_expiry_date}
+  LicenseTypeName={license_type}
+  PurchaseDate={purchase_date}

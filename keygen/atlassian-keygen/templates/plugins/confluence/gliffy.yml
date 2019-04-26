@@ -1,0 +1,21 @@
+name: Gliffy Diagrams for Confluence
+namespace: com.gliffy.integration.confluence
+plugin: true
+template: |
+  #{created_at}
+  Description={name}\: Evaluation
+  NumberOfUsers={number_of_users}
+  {namespace}.Starter={starter}
+  CreationDate={creation_date}
+  ContactEMail={contact_email}
+  Evaluation={evaluation}
+  licenseVersion={license_version}
+  MaintenanceExpiryDate={maintenance_expiry_date}
+  Organisation={organisation}
+  ServerID={server_id}
+  SEN={sen}
+  LicenseExpiryDate={license_expiry_date}
+  {namespace}.active=true
+  LicenseTypeName={license_type}
+  {namespace}.enterprise={enterprise}
+  PurchaseDate={purchase_date}

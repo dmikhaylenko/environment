@@ -1,0 +1,21 @@
+name: JIRA
+namespace: jira
+plugin: false
+min_version: '4.0'
+template: |
+  #{created_at}
+  Description={name}\: {license_type}
+  CreationDate={creation_date}
+  {namespace}.LicenseEdition={license_edition}
+  Evaluation={evaluation}
+  {namespace}.LicenseTypeName={license_type}
+  {namespace}.active={active}
+  licenseVersion={license_version}
+  MaintenanceExpiryDate={maintenance_expiry_date}
+  Organisation={organisation}
+  {namespace}.NumberOfUsers={number_of_users}
+  ServerID={server_id}
+  SEN={sen}
+  LicenseID=LID{sen}
+  LicenseExpiryDate={license_expiry_date}
+  PurchaseDate={purchase_date}

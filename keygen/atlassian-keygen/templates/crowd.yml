@@ -1,0 +1,19 @@
+name: Crowd
+namespace: crowd
+plugin: false
+min_version: '1.5'
+template: |
+  #{created_at}
+  Description={name}\: {license_type}
+  {namespace}.active={active}
+  CreationDate={creation_date}
+  {namespace}.LicenseTypeName={license_type}
+  Evaluation={evaluation}
+  MaintenanceExpiryDate={maintenance_expiry_date}
+  Organisation={organisation}
+  ServerID={server_id}
+  SEN={sen}
+  {namespace}.NumberOfUsers={number_of_users}
+  LicenseID=LID{sen}
+  LicenseExpiryDate={license_expiry_date}
+  PurchaseDate={purchase_date}

@@ -1,0 +1,19 @@
+name: Crucible
+namespace: crucible
+plugin: false
+min_version: '2.0.5'
+template: |
+  #{created_at}
+  Description={name}\: {license_type}
+  CreationDate={creation_date}
+  {namespace}.LicenseTypeName={license_type}
+  Evaluation={evaluation}
+  MaintenanceExpiryDate={maintenance_expiry_date}
+  {namespace}.NumberOfUsers={number_of_users}
+  Organisation={organisation}
+  {namespace}.active={active}
+  ServerID={server_id}
+  SEN={sen}
+  LicenseID=LID{sen}
+  LicenseExpiryDate={license_expiry_date}
+  PurchaseDate={purchase_date}

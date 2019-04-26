@@ -1,0 +1,20 @@
+name: Snippets for Bitbucket Server
+namespace: com.simplenia.stash.plugins.snippets
+plugin: true
+template: |
+  #{created_at}
+  Description={name}\: {license_type}
+  NumberOfUsers={number_of_users}
+  CreationDate={creation_date}
+  ContactEMail={contact_email}
+  Evaluation={evaluation}
+  {namespace}.active={active}
+  {namespace}.enterprise={enterprise}
+  licenseVersion={license_version}
+  MaintenanceExpiryDate={maintenance_expiry_date}
+  Organisation={organisation}
+  {namespace}.Starter={starter}
+  SEN={sen}
+  LicenseExpiryDate={license_expiry_date}
+  LicenseTypeName={license_type}
+  PurchaseDate={purchase_date}

@@ -1,0 +1,28 @@
+name: JIRA Core
+namespace: jira.product.jira-core
+major_namespace: jira
+plugin: false
+min_version: '4.0'
+template: |
+  #{created_at}
+  NumberOfUsers={number_of_users}
+  {namespace}.NumberOfUsers={number_of_users}
+  {major_namespace}.NumberOfUsers={number_of_users}
+  PurchaseDate={purchase_date}
+  LicenseTypeName={license_type}
+  LicenseExpiryDate={license_expiry_date}
+  ContactEMail={contact_email}
+  ServerID={server_id}
+  {namespace}.Starter={starter}
+  {major_namespace}.LicenseEdition={license_edition}
+  {namespace}.active={active}
+  MaintenanceExpiryDate={maintenance_expiry_date}
+  LicenseID=LID{sen}
+  SEN={sen}
+  Organisation={organisation}
+  CreationDate={creation_date}
+  licenseVersion={license_version}
+  Description={name}\: {license_type}
+  {major_namespace}.active={active}
+  {major_namespace}.LicenseTypeName={license_type}
+  Evaluation={evaluation}

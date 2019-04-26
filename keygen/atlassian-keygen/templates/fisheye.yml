@@ -1,0 +1,19 @@
+name: FishEye
+namespace: fisheye
+plugin: false
+min_version: '2.0.5'
+template: |
+  #{created_at}
+  Description={name}\: {license_type}
+  CreationDate={creation_date}
+  Evaluation={evaluation}
+  {namespace}.active={active}
+  MaintenanceExpiryDate={maintenance_expiry_date}
+  Organisation={organisation}
+  ServerID={server_id}
+  SEN={sen}
+  LicenseID=LID{sen}
+  LicenseExpiryDate={license_expiry_date}
+  {namespace}.LicenseTypeName={license_type}
+  {namespace}.NumberOfUsers={number_of_users}
+  PurchaseDate={purchase_date}

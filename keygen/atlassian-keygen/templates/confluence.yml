@@ -1,0 +1,20 @@
+name: Confluence
+namespace: conf
+plugin: false
+min_version: '3.0'
+template: |
+  #{created_at}
+  Description={name}\: {license_type}
+  CreationDate={creation_date}
+  {namespace}.active={active}
+  Evaluation={evaluation}
+  {namespace}.LicenseTypeName={license_type}
+  MaintenanceExpiryDate={maintenance_expiry_date}
+  {namespace}.NumberOfClusterNodes={number_of_cluster_nodes}
+  Organisation={organisation}
+  ServerID={server_id}
+  SEN={sen}
+  LicenseID=LID{sen}
+  {namespace}.NumberOfUsers={number_of_users}
+  LicenseExpiryDate={license_expiry_date}
+  PurchaseDate={purchase_date}

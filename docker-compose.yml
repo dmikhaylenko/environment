@@ -1,0 +1,24 @@
+jira:    
+    image: dmikhaylenko/atlassian-jira
+    ports:
+        - "8080:8080"
+    volumes:
+        - /opt/atlassian/data/jira:/opt/atlassian/data/jira
+crowd:
+    image: dmikhaylenko/atlassian-crowd
+    ports:
+        - "8095:8095"
+    volumes:
+        - /opt/atlassian/data/crowd:/opt/atlassian/data/crowd
+bamboo:
+    image: dmikhaylenko/atlassian-bamboo
+    ports:
+        - "8085:8085"
+    volumes:
+        - /opt/atlassian/data/bamboo:/opt/atlassian/data/bamboo
+confluence:
+    image: dmikhaylenko/atlassian-confluence
+    ports:
+        - "8090:8090"
+    volumes:
+        - /opt/atlassian/data/confluence:/opt/atlassian/data/confluence

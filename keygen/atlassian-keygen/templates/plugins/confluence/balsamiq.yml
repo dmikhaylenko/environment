@@ -1,0 +1,21 @@
+name: Balsamiq Mockups for Confluence
+namespace: com.balsamiq.confluence.plugins.mockups
+plugin: true
+template: |
+  #{created_at}
+  Description={name}\: Evaluation
+  NumberOfUsers={number_of_users}
+  CreationDate={creation_date}
+  {namespace}.enterprise={enterprise}
+  ContactEMail={contact_email}
+  Evaluation={evaluation}
+  {namespace}.Starter={starter}
+  licenseVersion={license_version}
+  MaintenanceExpiryDate={maintenance_expiry_date}
+  {namespace}.active=true
+  Organisation={organisation}
+  ServerID={server_id}
+  SEN={sen}
+  LicenseExpiryDate={license_expiry_date}
+  LicenseTypeName={license_type}
+  PurchaseDate={purchase_date}

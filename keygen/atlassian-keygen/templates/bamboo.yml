@@ -1,0 +1,20 @@
+name: Bamboo
+namespace: bamboo
+plugin: false
+min_version: '2.4'
+template: |
+  #{created_at}
+  Description={name} Enterprise\: {license_type}
+  NumberOfUsers={number_of_users}
+  CreationDate={creation_date}
+  Evaluation={evaluation}
+  {namespace}.active={active}
+  MaintenanceExpiryDate={maintenance_expiry_date}
+  {namespace}.LicenseEdition={license_edition}
+  Organisation={organisation}
+  ServerID={server_id}
+  SEN={sen}
+  {namespace}.LicenseTypeName={license_type}
+  LicenseID=LID{sen}
+  LicenseExpiryDate={license_expiry_date}
+  PurchaseDate={purchase_date}

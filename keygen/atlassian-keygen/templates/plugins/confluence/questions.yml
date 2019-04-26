@@ -1,0 +1,18 @@
+name: Confluence Questions (Server)
+namespace: com.atlassian.confluence.plugins.confluence-questions
+plugin: true
+template: |
+  #{created_at}
+  Description={name} for Confluence\: {license_type}
+  NumberOfUsers={number_of_users}
+  CreationDate={creation_date}
+  {namespace}.active={active}
+  Evaluation={evaluation}
+  licenseVersion={license_version}
+  MaintenanceExpiryDate={maintenance_expiry_date}
+  Organisation={organisation}
+  SEN={sen}
+  LicenseExpiryDate={license_expiry_date}
+  LicenseTypeName={license_type}
+  {namespace}.enterprise={enterprise}
+  PurchaseDate={purchase_date}

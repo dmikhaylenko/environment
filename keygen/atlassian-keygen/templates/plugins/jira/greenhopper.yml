@@ -1,0 +1,20 @@
+name: JIRA Agile (Server)
+namespace: greenhopper
+plugin: true
+min_version: '4.0'
+template: |
+  #{created_at}
+  Description={name} for JIRA\: {license_type}
+  NumberOfUsers={number_of_users}
+  CreationDate={creation_date}
+  Evaluation={evaluation}
+  {namespace}.LicenseEdition={license_edition}
+  licenseVersion={license_version}
+  MaintenanceExpiryDate={maintenance_expiry_date}
+  {namespace}.enterprise={enterprise}
+  Organisation={organisation}
+  {namespace}.active={active}
+  SEN={sen}
+  LicenseExpiryDate={license_expiry_date}
+  LicenseTypeName={license_type}
+  PurchaseDate={purchase_date}

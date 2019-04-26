@@ -1,0 +1,19 @@
+name: Bitbucket (Server)
+namespace: stash
+plugin: false
+template: |
+  #{created_at}
+  Description={name}\: {license_type}
+  CreationDate={creation_date}
+  Evaluation={evaluation}
+  {namespace}.active={active}
+  licenseVersion={license_version}
+  MaintenanceExpiryDate={maintenance_expiry_date}
+  Organisation={organisation}
+  {namespace}.LicenseTypeName={license_type}
+  ServerID={server_id}
+  SEN={sen}
+  LicenseID=LID{sen}
+  LicenseExpiryDate={license_expiry_date}
+  {namespace}.NumberOfUsers={number_of_users}
+  PurchaseDate={purchase_date}
